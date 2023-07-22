@@ -1,7 +1,7 @@
 import mysql.connector
 import random
 import pandas as pd
-con=mysql.connector.connect(host="localhost",passwd="Devyash786",user="root",database="school")
+con=mysql.connector.connect(host="localhost",passwd="SET PASSWORD",user="root",database="CREATE DATABASE")
 if con.is_connected():
     print("Successfully connected")
 else:
@@ -392,8 +392,8 @@ print('-----------------------------\nSANT CHAVARA NATIONAL ACADEMY\n-----------
 def pswd(): # Password Function
     login=input("Enter Login_Id:")
     p=input("Enter Password:")
-    login_id="Sant01p"
-    passwd="santchavara"
+    login_id="SET LOGIN ID"
+    passwd="SET PASSWORD"
     if login==login_id and p==passwd:
         main()
     else:
