@@ -388,7 +388,7 @@ def main(): # This is the main Function
     else:
         print("Wrong Choice")
         main()
-print('-----------------------------\nSANT CHAVARA NATIONAL ACADEMY\n-----------------------------')
+print('-----------------------------\nYour School Name\n-----------------------------')
 def pswd(): # Password Function
     login=input("Enter Login_Id:")
     p=input("Enter Password:")
